@@ -10,3 +10,8 @@
 # ********
 # *********
 # **********
+def triangle(N):
+    for x in range(1, N + 1):
+        print('*' * x)
+N = int(input("Введите натуральное число N: "))
+triangle(N)
