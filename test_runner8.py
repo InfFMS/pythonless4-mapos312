@@ -4,7 +4,7 @@ import subprocess
 # Вспомогательная функция для запуска основного скрипта и передачи данных через stdin
 def run_main_script(input_data):
     process = subprocess.Popen(
-        ['python', 'task8.py'],  # Запуск основного скрипта
+        ['python3', 'task8.py'],  # Запуск основного скрипта
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
